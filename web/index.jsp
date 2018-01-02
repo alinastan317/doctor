@@ -5,6 +5,7 @@
     Created on : Jan 1, 2018, 12:17:23 PM
     Author     : alistan
 --%>
+
 <sql:query var="doctors" dataSource="jdbc/myDatasource">
     SELECT first_name FROM doctors
 </sql:query>
